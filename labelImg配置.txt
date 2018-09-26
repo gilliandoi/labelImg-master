@@ -1,0 +1,11 @@
+1.Windows下，下载安装Anaconda (Python 3+)
+https://repo.anaconda.com/archive/Anaconda3-5.2.0-Windows-x86_64.exe
+2.下载最新labelimg代码，并将文件夹解压到C盘根目录下
+https://github.com/tzutalin/labelImg#labelimg
+3.启动安装好的Anaconda Prompt，并执行以下命令行：
+conda install pyqt=5
+cd C:\labelImg-master
+pyrcc5 -o resources.py resources.qrc
+python labelImg.py
+4.程序使用方法
+https://www.youtube.com/watch?v=p0nR2YsCY_U&feature=youtu.be
